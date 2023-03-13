@@ -56,7 +56,7 @@ nano /etc/pacman.conf
 
 ### Run pacstrap to install our system
 ```sh
-pacstrap -K /mnt base base-devel linux-zen linux-zen-headers linux-firmware dhcpcd iwd zram-generator nano intel-ucode git tmux usbutils unrar unzip p7zip unarchiver gvfs-mtp libmtp ntfs-3g android-udev mtpfs xdg-user-dirs xf86-video-intel vulkan-intel vulkan-icd-loader libva-intel-driver xorg-server xorg-xrdb xorg-xinit xorg-xrandr xorg-xev xorg-xdpyinfo xorg-xprop rustup neofetch htop btop fish pkgfile ffmpeg pulseaudio i3-wm rofi tlp acpid acpi_call upower discord feh
+pacstrap -K /mnt base base-devel linux-zen linux-zen-headers linux-firmware dhcpcd iwd zram-generator nano intel-ucode git tmux usbutils unrar unzip p7zip unarchiver gvfs-mtp libmtp ntfs-3g android-udev mtpfs xdg-user-dirs xf86-video-intel vulkan-intel vulkan-icd-loader libva-intel-driver xorg-server xorg-xrdb xorg-xinit xorg-xrandr xorg-xev xorg-xdpyinfo xorg-xprop rustup neofetch htop btop fish pkgfile ffmpeg pulseaudio i3-wm rofi tlp acpid acpi_call upower discord feh sxhkd
 ```
 
 ### Chroot into our system
@@ -261,6 +261,11 @@ Section "InputClass"
 EndSection
 ```
 
+### Change xdg-user-dirs to name our home directories differently
+```sh
+nano /etc/xdg/user-dirs.defaults
+```
+
 ### Install our display manager
 ```sh
 paru -S ly-git
@@ -311,4 +316,4 @@ chmod +x .xinitrc
 ```
 
 ## After all this, you should be good to go!
-## If you
+## If you wish to deploy my rice it can be found at [nuh uh not yet](#)
