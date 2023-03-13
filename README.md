@@ -1,6 +1,8 @@
-## My personal Arch Linux installationg guide
+## My personal Arch Linux installation guide
 ### For advanced users
 Installation is done in the Arch Live ISO, which can be downloaded [here](https://mirror.vincuska.wtf/archlinux/iso/latest/archlinux-2023.02.01-x86_64.iso)
+
+## Stage 1 - Live ISO
 
 ### Load my keymap
 ```sh
