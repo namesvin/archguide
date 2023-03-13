@@ -56,7 +56,7 @@ nano /etc/pacman.conf
 
 ### Run pacstrap to install our system
 ```sh
-pacstrap -K /mnt base base-devel linux-zen linux-zen-headers linux-firmware dhcpcd iwd zram-generator nano intel-ucode git tmux usbutils unrar unzip p7zip unarchiver gvfs-mtp libmtp ntfs-3g android-udev mtpfs xdg-user-dirs xf86-video-intel vulkan-intel vulkan-icd-loader libva-intel-driver xorg-server xorg-xrdb xorg-xinit xorg-xrandr xorg-xev xorg-xdpyinfo xorg-xprop rustup neofetch htop btop fish pkgfile ffmpeg pulseaudio i3-wm rofi tlp acpid acpi_call upower discord feh sxhkd
+pacstrap -K /mnt base base-devel linux-zen linux-zen-headers linux-firmware dhcpcd iwd zram-generator nano intel-ucode git tmux usbutils unrar unzip p7zip unarchiver gvfs-mtp libmtp ntfs-3g android-udev mtpfs xdg-user-dirs xf86-video-intel vulkan-intel vulkan-icd-loader libva-intel-driver xorg-server xorg-xrdb xorg-xinit xorg-xrandr xorg-xev xorg-xdpyinfo xorg-xprop rustup neofetch htop btop fish pkgfile ffmpeg pulseaudio i3-wm rofi tlp acpid acpi_call upower discord feh sxhkd picom
 ```
 
 ### Chroot into our system
